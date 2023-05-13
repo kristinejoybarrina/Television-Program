@@ -4,8 +4,9 @@
 # Import Class Television to Test Television program
 from Television import Television
 
+# only trying to print just to check it's working
 television1 = Television(1, 2, 1)
-print(television1.turn_on(), television1.turn_off())
+print(television1.turn_on(), television1.turn_off(), television1.get_channel())
 
 # Define a function in Test Television program
 # Call all methods and print their function

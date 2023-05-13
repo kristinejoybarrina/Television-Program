@@ -18,5 +18,10 @@ class Television:
         power_off = "This turns off the TV."
         return power_off
     
+    # Create a get channel method
+    def get_channel (self):
+        channel_num = self.channel
+        return channel_num
+    
     
     
