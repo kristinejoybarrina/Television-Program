@@ -5,7 +5,7 @@
 from Television import Television
 
 television1 = Television(1, 2, 1)
-print(television1.try_lang())
+print(television1.turn_on())
 
 # Define a function in Test Television program
 # Call all methods and print their function
