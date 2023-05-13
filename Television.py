@@ -10,8 +10,13 @@ class Television:
         
     # Create a turn on method
     def turn_on (self):
-        power_on = "Turns on this tv."
+        power_on = "Turns on this TV."
         return power_on
+    
+    # Create a turn off method
+    def turn_off (self):
+        power_off = "This turns off the TV."
+        return power_off
     
     
     
