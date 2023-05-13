@@ -4,11 +4,9 @@
 # Import Class Television to Test Television program
 from Television import Television
 
-television1 = Television()
+television1 = Television(1, 2, 1)
 print(television1.try_lang())
 
-
-# Create a working class 
 # Define a function in Test Television program
 # Call all methods and print their function
 # Create two objects

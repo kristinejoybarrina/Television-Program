@@ -2,10 +2,12 @@
 
 class Television:
     
-    def __init__(self) -> None:
-        self
-        pass
+    def __init__(self, channel, volume_level, power):
+        self.channel = int(channel)
+        self.volume_level = int(volume_level)
+        self.power = bool(power)
     
     def try_lang (self):
-        self.try_natin = "yay working na!"
-        return self.try_natin
+        try_natin = self.power
+        return try_natin
+    
