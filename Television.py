@@ -23,16 +23,17 @@ class Television:
     
     # Create a get channel method
     def get_channel (self):
-        get = self.channel
-        return "channel is " + str(get)
-
+        channel_number = self.channel
+        return "channel is " + str(channel_number)
+    
     # Create a set channel method
     def set_channel (self):
         return 
     
     # Create get volume method
     def get_volume (self):
-        return self.volume_level 
+        volume_number = self.volume_level
+        return "volume is " + str(volume_number)
      
     # Create set volume method
     def set_volume (self):
