@@ -21,7 +21,10 @@ class Television:
     # Create a get channel method
     def get_channel (self):
         channel_num = self.channel
-        return channel_num
+        channel_message = "Returns the channel for this TV." 
+        return str(channel_num) + channel_message
+    
+        
     
     
     
