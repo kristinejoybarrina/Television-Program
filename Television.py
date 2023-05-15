@@ -38,4 +38,8 @@ class Television:
     def channel_up (self):
         return
     
+    # Create channel down method
+    def channel_down (self):
+        return
+    
     
