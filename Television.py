@@ -46,4 +46,7 @@ class Television:
     def volume_up (self):
         return
     
-    
+    # Create volume down method
+    def volume_down (self):
+        return
+ 
