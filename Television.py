@@ -24,9 +24,8 @@ class Television:
     # Create a get channel method
     def get_channel (self):
         get = self.channel
-        self.channel = get
-        print ("channel is", self.channel)
-    
+        return "channel is " + str(get)
+
     # Create a set channel method
     def set_channel (self):
         return 
