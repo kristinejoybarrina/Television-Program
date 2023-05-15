@@ -30,9 +30,12 @@ class Television:
         get_volume = self.volume_level
         return get_volume
     
+    # Create set volume method
     def set_volume (self):
         return
     
-    
+    # Create channel up method
+    def channel_up (self):
+        return
     
     
