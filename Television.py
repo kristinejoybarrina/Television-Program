@@ -10,21 +10,22 @@ class Television:
         
     # Create a turn on method
     def turn_on (self):
-        power_on = "Turns on this TV."
-        return power_on
+        return 
     
     # Create a turn off method
     def turn_off (self):
-        power_off = "This turns off the TV."
-        return power_off
+        return
     
     # Create a get channel method
     def get_channel (self):
         channel_num = self.channel
-        channel_message = "Returns the channel for this TV." 
-        return str(channel_num) + channel_message
+        return channel_num
     
-        
+    # Create a set channel method
+    def set_channel (self):
+        return 
+    
+    
     
     
     
