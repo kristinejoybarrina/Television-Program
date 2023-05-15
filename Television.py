@@ -3,11 +3,16 @@
 class Television:
     
     # Create constructor and instance variables
-    def __init__(self, channel, volume_level, power):
+    def __init__(self, name, channel, volume_level, power):
+        self.name = str(name)
         self.channel = int(channel)
         self.volume_level = int(volume_level)
         self.power = bool(power)
-        
+    
+    def show_name (self):
+        television_name = self.name 
+        return television_name
+    
     # Create a turn on method
     def turn_on (self):
         return 
@@ -18,8 +23,8 @@ class Television:
     
     # Create a get channel method
     def get_channel (self):
-        channel_num = self.channel
-        return channel_num
+        get_channel = ("channel is " + str(self.channel))
+        return get_channel
     
     # Create a set channel method
     def set_channel (self):
