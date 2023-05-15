@@ -10,8 +10,7 @@ class Television:
         self.power = bool(power)
     
     def show_name (self):
-        television_name = self.name 
-        return television_name
+        return "Television " + str(self.name) + "'s"
     
     # Create a turn on method
     def turn_on (self):
