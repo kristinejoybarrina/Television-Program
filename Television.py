@@ -14,11 +14,11 @@ class Television:
     
     # Create a turn on method
     def turn_on (self):
-        return 
+        return "This TV has been turned on."
     
     # Create a turn off method
     def turn_off (self):
-        return
+        return "This TV has been turned off."
     
     # Create a get channel method
     def get_channel (self):
@@ -27,7 +27,7 @@ class Television:
     
     # Create a set channel method
     def set_channel (self):
-        return 
+        return "New channel number has been set"
     
     # Create get volume method
     def get_volume (self):
@@ -36,21 +36,21 @@ class Television:
      
     # Create set volume method
     def set_volume (self):
-        return
+        return "New volume level has been set."
     
     # Create channel up method
     def channel_up (self):
-        return
+        return "The channel number increases to 1."
     
     # Create channel down method
     def channel_down (self):
-        return
+        return "The channel number decreases to 1."
     
     # Create volume up method
     def volume_up (self):
-        return
+        return "The volume level increases to 1."
     
     # Create volume down method
     def volume_down (self):
-        return
+        return "The volume level decreases to 1."
  
