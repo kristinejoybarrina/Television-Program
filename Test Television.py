@@ -9,9 +9,6 @@ television1 = Television(1, 30, 3, 1)
 television2 = Television(2, 3, 2, 1)
 
 # Call all methods and print their function
-print (television1.volume_up(), television1.channel_down(), television1.show_name(), television1.get_channel(), television1.get_volume())
-# Define a function in Test Television program
+print (television1.show_name(), television1.get_channel(), television1.get_volume())
 
-
-# Call instance method and print output
-# Display it in tkinter
+# Display it through using colorama
