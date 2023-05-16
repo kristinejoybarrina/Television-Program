@@ -35,7 +35,7 @@ class Television:
     # Create get volume method
     def get_volume (self):
         volume_number = self.volume_level
-        return "volume is " + str(volume_number)
+        return "volume level is " + str(volume_number)
      
     # Create set volume method
     def set_volume (self):
